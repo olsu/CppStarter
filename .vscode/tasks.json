@@ -1,0 +1,19 @@
+{
+    "version": "0.1.0",
+    "windows": {
+        "command": "build.bat",
+        "isShellCommand": true, 
+        "showOutput": "always"
+    },
+    "tasks": [
+        {"taskName": "build",
+        "args": [
+            "src/hello.cpp",
+            "hello.exe",
+            "build",
+            "bin"
+        ],
+        "suppressTaskName": true
+        }
+    ]
+}
