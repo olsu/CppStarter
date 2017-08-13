@@ -3,6 +3,6 @@
 
 int main()
 { 
-    std::cout << "Hello, Wandbox tets!" << std::endl;
+    std::cout << "Hello, Wandbox test!" << std::endl;
     return EXIT_SUCCESS;
 }
